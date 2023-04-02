@@ -15,13 +15,14 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background: linear-gradient(90deg, #d3a526 1.18%, #806a22 100%);
+  background: linear-gradient(90deg, #d3a526 1.18%, #897224 100%);
   width: 100%;
   height: 65px;
 }
 
 .navbar p{
   margin-right: 37px;
+  font-size: .80rem;
 }
 
 .nameLogo {
@@ -33,10 +34,12 @@ body {
 .logo-img {
   width: 75px;
   height: 75px;
-  /* filter: invert(100%); */
 }
 
 .logo-name {
-  font-size: 21px;
-  margin-left: -5px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: -0.1em;
+  font-size: 1.25rem;
+  margin-left: -10px;
 }
