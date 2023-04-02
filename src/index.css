@@ -1,8 +1,42 @@
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
   font-family: "Karla", sans-serif;
   margin: 0;
+}
+
+/* NAVBAR */
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: linear-gradient(90deg, #d3a526 1.18%, #806a22 100%);
+  width: 100%;
+  height: 65px;
+}
+
+.navbar p{
+  margin-right: 37px;
+}
+
+.nameLogo {
+  display: flex;
+  align-items: center;
+  color: #000000;
+}
+
+.logo-img {
+  width: 75px;
+  height: 75px;
+  /* filter: invert(100%); */
+}
+
+.logo-name {
+  font-size: 21px;
+  margin-left: -5px;
 }
