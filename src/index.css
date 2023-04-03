@@ -43,3 +43,33 @@ body {
   font-size: 1.25rem;
   margin-left: -10px;
 }
+
+/* MEME */
+
+form {
+  margin-top: 36px;
+  display: flex;
+  justify-content: center;
+  column-gap: 20px;
+  flex-wrap: wrap;
+}
+
+form input{
+  border: 1px solid #D5D4D8;
+  border-radius: 5px;
+  width: 45vw;
+  height: 35px;
+}
+
+.form-btn {
+  margin-top: 15px;
+  width: 93vw;
+  height: 40px;
+  border: 1px solid #D5D4D8;
+  background: linear-gradient(90deg, #d3a526 55%, #897224 100%);
+  border-radius: 5px;
+  font-weight: 700;
+  font-size: 1rem;
+  text-align: center;
+  letter-spacing: -0.05em;
+}
