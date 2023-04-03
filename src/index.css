@@ -65,14 +65,19 @@ main {
 }
 
 .form-btn {
+  cursor: pointer;
   grid-column: 1 / -1;
-  border: 1px solid #D5D4D8;
+  border: none;
   border-radius: 5px;
   background: linear-gradient(90deg, #d3a526 55%, #897224 100%);
   font-weight: 700;
   font-size: 1rem;
   letter-spacing: -0.05em;
   font-family: "Karla", sans-serif;
+}
+
+.form-btn:hover {
+  filter: brightness(80%);
 }
 
 /* .form {
