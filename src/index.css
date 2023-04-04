@@ -80,6 +80,11 @@ main {
   filter: brightness(80%);
 }
 
+.meme-img {
+  width: 100%;
+  margin-top: 35px;
+}
+
 /* .form {
   margin-top: 36px;
   display: flex;
@@ -107,3 +112,4 @@ main {
   text-align: center;
   letter-spacing: -0.05em;
 } */
+
