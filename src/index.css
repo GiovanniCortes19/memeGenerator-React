@@ -80,10 +80,48 @@ main {
   filter: brightness(80%);
 }
 
+.meme-container {
+  position: relative;
+}
+
 .meme-img {
   width: 100%;
   margin-top: 35px;
   border-radius: 5px;
+}
+
+.meme--text {
+  position: absolute;
+  width: 80%;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 15px 0;
+  padding: 0 5px;
+  font-family: impact, sans-serif;
+  font-size: 2em;
+  text-transform: uppercase;
+  text-align: center;
+  color: white;
+  text-shadow:
+        2px 2px 0 #000,
+        -2px -2px 0 #000,
+        2px -2px 0 #000,
+        -2px 2px 0 #000,
+        0 2px 0 #000,
+        2px 0 0 #000,
+        0 -2px 0 #000,
+        -2px 0 0 #000,
+        2px 2px 5px #000;
+}
+
+.top {
+  top: 40px;
+  z-index: 1;
+}
+
+.bottom {
+  bottom: 0px;
+  z-index: 1;
 }
 
 /* .form {
